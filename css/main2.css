@@ -1,0 +1,113 @@
+body, html{
+    height: 100%;
+}
+
+body{
+    background-color:beige;
+}
+
+nav li{
+    display: inline;
+    color:transparent; 
+    align: 
+}
+
+nav a:link, a:visited{
+    background-color:beige;
+    color: black;
+    border: 5px solid black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav a:hover, a:active{
+    background-color: black;
+    color:plum
+}
+nav ul{
+    margin: 0px;
+    text-align: center;
+}
+.header{
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 100%;
+}
+
+.title-photo{
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.main{
+    border-style: groove;
+    border-width: 10px;
+    border-color: darkolivegreen;
+    overflow: auto;
+}
+
+#main-article{
+    text-align: left;
+    float: left;
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+#main-articleB{
+    text-align: left;
+    float: right;
+    width: 30%;
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#main-articleC{
+    text-align: left;
+    float: center;
+    padding: 20px;
+}
+
+#family-photo{
+    width: 200px;
+}
+
+#book-form{
+    text-align: center;
+    padding: 20px;
+}
+
+input[type=text]{
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+textarea{
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+
+footer{
+    width: 100%;
+    background-color:darkolivegreen;
+    height: 5vh;
+}
+
+footer div{
+    text-align: center
+}
